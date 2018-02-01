@@ -55,7 +55,7 @@ class Calendar extends React.Component {
    
    const currMonth = moment(month, "YYYYM")
    
-   if (currMonth > startMon && currMon < endMon) {
+   if (currMonth > startMon && currMonth < endMon) {
       return true
     }
    return false
