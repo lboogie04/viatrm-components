@@ -1,0 +1,7 @@
+<div class="uk-container">
+<%= javascript_pack_tag 'application' %>
+<%= react_component("Calendar", calendar_props) %>
+ <div class="button-section">
+ <%= link_to 'Proceed to Form', welcome_form_path, class: "uk-button uk-button-primary" %>
+  </div>
+</div>

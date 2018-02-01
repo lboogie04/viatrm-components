@@ -1,0 +1,43 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+p {
+ margin: 20px 0 0 0;
+}
+.uk-container {
+  max-width: 600px !important;
+//  padding-left: 40px;
+//  padding-right: 40px;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif; 
+ 
+ .uk-button-default {
+  width: 100px;
+ }
+ .uk-button-default:focus, .uk-button-default:active, .uk-button-default:visited, .select {
+  background-color: #75ccce;
+  color: white;
+ }
+ 
+ .title {
+  text-transform: uppercase;
+  color: #2754b5;
+ }
+ 
+ .highlight {
+  background-color: #c5c5c5;
+  color: white;
+ }
+ 
+ .button-section {
+  text-align: center;
+  margin-top: 30px;
+ }
+}
+//.uk-badge {
+// color: blue;
+//}
