@@ -1,24 +1,20 @@
-# README
+# Initial Setup(Locally)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Assure Brew, Ruby, Node, Yarn, etc. is installed. Basic neccessities to run a Node and/or Rails application.
 
-Things you may want to cover:
+* `git clone...`
 
-* Ruby version
+* `cd` into app and run a `bundle install`
 
-* System dependencies
+* `yarn install` just to be safe(Some of the packages get left out on the Webpacker initialization)
 
-* Configuration
+* From there, open up two terminal windows of the project directory(One for Webpacker server; the other for Rails server)
 
-* Database creation
+* In the Rails window run `rails s`; In the Webpacker window run `./bin/webpack-dev-server` (Usually, I'd add the commands to a Procfile but for the sake of time and separation...)
 
-* Database initialization
+* Browse to your `localhost` along with whatever port it assigns to the Rails server.
 
-* How to run the test suite
+* Calendar Component = `http://localhost:3000/welcome/calendar`
+  Form Component = `http://localhost:3000/welcome/form`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ENJOY!
