@@ -1,6 +1,6 @@
 # Initial Setup(Locally)
 
-Assure Brew, Ruby, Node, Yarn, etc. is installed. Basic neccessities to run a Node and/or Rails application.
+Assure Brew, Ruby, Node, Yarn, etc. are installed. Basic neccessities to run a Node and/or Rails application.
 
 * `git clone...`
 
